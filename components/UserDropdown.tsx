@@ -22,7 +22,7 @@ const UserDropdown = () => {
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
-                <Button varient="ghost" className="flex items-center gap-3 text-gray-4 hover:text-yellow-400">
+                <Button variant="ghost" className="flex items-center gap-3 text-gray-4 hover:text-yellow-400">
                     <Avatar className="h-8 w-8">
                         <AvatarImage src="https://github.com/shadcn.png" />
                         <AvatarFallback className="bg-yellow-500 text-yellow-900 text-sm font-bold">
